@@ -1,0 +1,13 @@
+{
+  "name": "api-consumer-cache-fallback",
+  "version": "1.0.0",
+  "description": "API consumer with in-memory cache, TTL, and stale fallback — portfolio project",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["cache", "fallback", "api", "node"],
+  "author": "",
+  "license": "MIT"
+}
