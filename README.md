@@ -20,9 +20,10 @@ Um projeto de portfólio em **Node.js puro** que demonstra padrões avançados d
 
 ```
 src/
-├── api.js      # Comunicação com a API externa (fetch + AbortController)
-├── cache.js    # Cache em memória com Map, TTL e validação
-└── index.js    # Orquestração (Cache-Aside) + demonstração auto-executável
+├── api.js          # Comunicação externa (fetch + AbortController)
+├── cache.js        # Cache em memória (Map + TTL)
+├── userService.js  # Núcleo: Cache-Aside + 2 níveis de fallback
+└── index.js        # Demonstração dos 4 cenários
 ```
 
 A separação de responsabilidades segue o **Princípio da Responsabilidade Única**: cada módulo faz exatamente uma coisa.
