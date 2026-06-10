@@ -8,6 +8,6 @@
     "start": "node src/index.js"
   },
   "keywords": ["cache", "fallback", "api", "node"],
-  "author": "",
+  "author": "Pedro",
   "license": "MIT"
 }
