@@ -40,7 +40,7 @@ Para rodar o projeto, apenas dê o comando no terminal:
 # Clone ou copie o projeto para sua máquina
 
 # Entre na pasta do projeto
-cd "Projeto API Node.js"
+cd Consumidor-API
 
 # Rode a demonstração
 npm start
